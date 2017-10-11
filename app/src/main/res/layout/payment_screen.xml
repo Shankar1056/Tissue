@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/app_back"
+	android:orientation="vertical">
+
+	<include
+		android:id="@+id/top"
+		layout="@layout/toolbar"/>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/top"
+		android:layout_marginLeft="@dimen/margin_10"
+		android:layout_marginRight="@dimen/margin_10"
+		android:orientation="vertical">
+
+		<ScrollView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:scrollbars="none">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:paddingBottom="@dimen/margin_70"
+				android:paddingTop="@dimen/margin_15">
+
+				<android.support.v7.widget.CardView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content">
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="@dimen/margin_10"
+						android:layout_marginRight="@dimen/margin_10"
+						android:orientation="vertical">
+
+						<TextView
+							android:id="@+id/summary"
+							android:layout_width="match_parent"
+							android:layout_height="@dimen/margin_50"
+							android:gravity="center"
+							android:text="@string/summary"
+							android:textColor="@color/black"
+							android:textSize="@dimen/text_16"
+							android:textStyle="normal"/>
+
+						<View
+							android:layout_width="match_parent"
+							android:layout_height="0.5dp"
+							android:background="@color/colorAccent"/>
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="@dimen/margin_50"
+							android:layout_marginLeft="@dimen/margin_7"
+							android:layout_marginRight="@dimen/margin_7"
+							android:orientation="horizontal">
+
+							<TextView
+								android:id="@+id/subtotaltext"
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:layout_weight=".5"
+								android:gravity="center_vertical"
+								android:text="@string/subtotal"
+								android:textColor="@color/text_black_light"
+								android:textSize="@dimen/text_14"
+								android:textStyle="normal"/>
+
+							<LinearLayout
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:layout_weight=".5"
+								android:gravity="center|right"
+								android:orientation="horizontal">
+								<ImageView
+									android:layout_width="@dimen/margin_10"
+									android:layout_height="@dimen/margin_10"
+									android:background="@mipmap/rupee_green_icon"/>
+
+								<TextView
+									android:id="@+id/subtotalprice"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:gravity="center|right"
+									android:text=" "
+									android:textColor="@color/colorAccent"
+									android:textSize="@dimen/text_14"
+									android:textStyle="normal"/>
+							</LinearLayout>
+						</LinearLayout>
+					</LinearLayout>
+				</android.support.v7.widget.CardView>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="@dimen/margin_50"
+					android:layout_marginLeft="@dimen/margin_17"
+					android:layout_marginRight="@dimen/margin_17"
+					android:orientation="horizontal">
+
+					<TextView
+						android:id="@+id/subtotal"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:layout_weight=".5"
+						android:gravity="center_vertical"
+						android:text="@string/subtotal"
+						android:textColor="@color/colorAccent"
+						android:textSize="@dimen/text_17"
+						android:textStyle="normal"/>
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:layout_weight=".5"
+						android:gravity="center|right"
+						android:orientation="horizontal">
+						<ImageView
+							android:layout_width="@dimen/margin_11"
+							android:layout_height="@dimen/margin_11"
+							android:background="@mipmap/rupee_green_icon"/>
+
+					<TextView
+						android:id="@+id/subtotal_price"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="center|right"
+						android:textColor="@color/colorAccent"
+						android:textSize="@dimen/text_17"
+						android:textStyle="normal"/>
+						</LinearLayout>
+				</LinearLayout>
+
+				<android.support.v7.widget.CardView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content">
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="vertical"
+						android:visibility="visible">
+
+						<TextView
+							android:id="@+id/paymentmethod"
+							android:layout_width="match_parent"
+							android:layout_height="@dimen/margin_50"
+							android:gravity="center"
+							android:text="@string/paymentmethod"
+							android:textColor="@color/text_black"
+							android:textSize="@dimen/text_16"
+							android:textStyle="normal"/>
+
+
+						<android.support.v7.widget.RecyclerView
+							android:id="@+id/paymentrecycle"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:background="@color/white">
+
+						</android.support.v7.widget.RecyclerView>
+					</LinearLayout>
+				</android.support.v7.widget.CardView>
+
+				<android.support.v7.widget.CardView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="@dimen/margin_4"
+					android:layout_marginTop="@dimen/text_15">
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginBottom="@dimen/margin_7"
+						android:layout_marginLeft="@dimen/margin_15"
+						android:layout_marginRight="@dimen/margin_10"
+						android:layout_marginTop="@dimen/margin_7"
+						android:orientation="vertical">
+
+						<TextView
+							android:id="@+id/deliveryaddress"
+							android:layout_width="match_parent"
+							android:layout_height="@dimen/margin_50"
+							android:layout_marginLeft="@dimen/margin_15"
+							android:layout_marginRight="@dimen/margin_15"
+							android:gravity="center"
+							android:text="@string/deliveryaddress"
+							android:textColor="@color/colorPrimary"
+							android:textSize="@dimen/text_16"
+							android:textStyle="normal"/>
+
+						<TextView
+							android:id="@+id/addresstype"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_marginTop="@dimen/margin_7"
+							android:text="Office"
+							android:textColor="@color/text_light_black_color"
+							android:textSize="@dimen/text_14"
+							android:textStyle="normal"/>
+
+						<TextView
+							android:id="@+id/addressdesc"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_marginTop="@dimen/margin_5"
+							android:text="fdfnimjrsmg "
+							android:textColor="@color/text_light_black_color"
+							android:textSize="@dimen/text_14"
+							android:textStyle="normal"/>
+
+
+					</LinearLayout>
+				</android.support.v7.widget.CardView>
+			</LinearLayout>
+		</ScrollView>
+	</LinearLayout>
+
+	<LinearLayout
+		android:id="@+id/paylayout"
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/margin_50"
+		android:layout_alignParentBottom="true"
+		android:layout_marginBottom="@dimen/margin_15"
+		android:layout_marginLeft="@dimen/margin_15"
+		android:layout_marginRight="@dimen/margin_15"
+		android:background="@color/otp_button_color">
+
+		<TextView
+			android:id="@+id/pay"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="center"
+			android:text="@string/pay"
+			android:textColor="@color/white"
+			android:textSize="@dimen/text_17"
+			android:textStyle="normal"/>
+	</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/background"
+	android:orientation="vertical">
+
+	<include
+		android:id="@+id/top"
+		layout="@layout/toolbar"/>
+
+
+	<ExpandableListView
+		android:id="@+id/simple_expandable_listview"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:divider="@android:color/transparent"
+		android:dividerHeight="0dp"
+		android:visibility="gone">
+	</ExpandableListView>
+	<android.support.v7.widget.RecyclerView
+		android:id="@+id/myorder_recyc"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+	</android.support.v7.widget.RecyclerView>
+
+	<RelativeLayout
+		android:id="@+id/myordershow"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:visibility="gone">
+
+		<LinearLayout
+			android:id="@+id/linearLayout2"
+			android:layout_width="200dp"
+			android:layout_height="200dp"
+			android:layout_alignParentTop="true"
+			android:layout_centerHorizontal="true"
+			android:layout_marginTop="49dp"
+			android:gravity="center">
+
+			<ImageView
+				android:layout_width="150dp"
+				android:layout_height="150dp"
+				android:background="@mipmap/empty_orders"/>
+		</LinearLayout>
+
+		<TextView
+			android:id="@+id/textView2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_alignParentStart="true"
+			android:layout_below="@+id/linearLayout2"
+			android:layout_marginTop="39dp"
+			android:gravity="center"
+			android:text="@string/noitemadded"
+			android:textColor="@color/nofound"/>
+
+		<TextView
+			android:id="@+id/ordernow"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@+id/textView2"
+			android:layout_centerHorizontal="true"
+			android:layout_marginTop="30dp"
+			android:background="@drawable/ordernow"
+			android:paddingBottom="@dimen/margin_10"
+			android:paddingLeft="@dimen/margin_15"
+			android:paddingRight="@dimen/margin_15"
+			android:paddingTop="@dimen/margin_10"
+			android:text="@string/ordernow"
+			android:textColor="@color/white"
+			android:textSize="@dimen/text_16"
+			android:textStyle="normal"/>
+
+	</RelativeLayout>
+
+</LinearLayout>

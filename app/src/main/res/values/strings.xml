@@ -1,0 +1,136 @@
+<resources>
+	<string name="app_name">Tissu</string>
+
+	<string name="navigation_drawer_open">Open navigation drawer</string>
+	<string name="navigation_drawer_close">Close navigation drawer</string>
+
+	<string name="action_settings">Settings</string>
+
+
+
+	<string name="home">Store</string>
+	<string name="more">All Categories</string>
+	<string name="saveaddress">SAVE ADDRESS</string>
+
+	<!-- All Fonts   -->
+	<string name="regular_font">fonts/celias.otf</string>
+	<string name="black_font">fonts/CeliasBlack.otf</string>
+	<string name="black_italic_font">fonts/CeliasBlackItalic.otf</string>
+	<string name="bold_font">fonts/CeliasBold.otf</string>
+	<string name="light_font">fonts/CeliasLight.otf</string>
+	<string name="medium_font">fonts/CeliasMedium.otf</string>
+	<string name="italic_font">fonts/CeliasRegularItalic.otf</string>
+	<string name="thin_font">fonts/celiasthin.otf</string>
+	<string name="gps_network_not_enabled">GPS network not enabled</string>
+	<string name="open_location_settings">Open Setting</string>
+	<string name="cancel">Cancel</string>
+	<string name="grant_permission">Grant Permission</string>
+	<string name="please_choose_location">Please choose location</string>
+	<string name="no_location">No Location found</string>
+	<string name="addaddress">ADD ADDRESS</string>
+
+	<!--<string name="google_geo_api_key">AIzaSyD9OAGgB2INbUJwwtORRF1ZyaloEEt4W2A</string>--><!-- SERVER -->
+	<string name="google_geo_api_key">AIzaSyAibAOnPCl980VCJ1lvbS5Mut-Ttlxqd_w</string><!-- LOCAL-->
+	<string name="gotomap">Go to map</string>
+	<string name="contactinformation">Contact Information</string>
+	<string name="emailid">Email Id</string>
+	<string name="mpbilenumber">Mobile Number</string>
+	<string name="contactus">Contact Us</string>
+	<string name="loading">Loading, Please wait</string>
+	<string name="notificationonoff">Notification On/Off</string>
+	<string name="nooffersfound">No offers found near you\nPlease choose after few days</string>
+	<string name="nointernetconnection">No Internet Connection</string>
+	<string name="otp">GETOTP</string>
+	<string name="hint_name">Name</string>
+	<string name="hint_email">Email</string>
+	<string name="hint_otp">Enter otp</string>
+	<string name="signup">SIGNUP</string>
+
+
+
+
+
+	<string name="google_maps_api_key">	AIzaSyAc8UZ-w4cYDRoypQFTYmSunvN3_18bOyc</string>
+	<string name="getotp">GET OTP</string>
+
+	<!--5F:81:77:C7:F7:D6:ED:1D:5D:2E:20:CE:B0:36:13:89:ED:02:A8:AC-->
+
+
+
+
+
+
+
+	<string name="entermobilenumber">Enter Mobile Number</string>
+	<string name="sentotp">SEND OTP</string>
+	<string name="submit">SUBMIT</string>
+	<string name="myaddress">My Address</string>
+	<string name="mycart">My Cart</string>
+	<string name="myorder">My Order</string>
+	<string name="others">Others</string>
+	<string name="aboutus">About us</string>
+	<string name="each">each  X </string>
+	<string name="cost">=     Cost  : </string>
+	<string name="addtocart">Add to cart</string>
+	<string name="checkout">Checkout</string>
+	<string name="work">WORK</string>
+	<string name="update">UPDATE</string>
+	<string name="enterotp">Enter OTP</string>
+	<string name="address">Address</string>
+	<string name="edit">Edit</string>
+	<string name="delete">Delete</string>
+	<string name="addnewaddress">Add New Address</string>
+	<string name="orderdelivered">Order Delivered</string>
+	<string name="totalamount">TOTAL AMOUNT</string>
+	<string name="appetizer">Appetizers</string>
+	<string name="starters">Starters</string>
+	<string name="maincourse">Main Course</string>
+	<string name="desserts">Dessetrs</string>
+	<string name="beverages">Beverages</string>
+	<string name="salad">Salads</string>
+	<string name="hint_street">Address</string>
+	<string name="hint_locality">Locality</string>
+	<string name="hint_city">City</string>
+	<string name="hint_state">State</string>
+	<string name="hint_postalcode">Postal Code</string>
+	<string name="hint_country">Country</string>
+	<string name="pleasewait">Please wait...</string>
+
+	<string name="rateus">Rate us</string>
+	<string name="logout">Logout</string>
+	<string name="typrarea">Type or Select state</string>
+	<string name="gotocart">Go to cart</string>
+	<string name="summary">Summary</string>
+	<string name="subtotal">Subtotal</string>
+	<string name="debitcreditcart"><![CDATA[Debit and Credit card]]></string>
+	<string name="cod">Cash on Delivery</string>
+	<string name="deliveryaddress">Delivery Address</string>
+	<string name="paymentmethod">Payment Method</string>
+	<string name="pay">PAY</string>
+	<string name="example_amount">Amount</string>
+	<string name="test_description">Dscription</string>
+	<string name="example_phone">Phone</string>
+	<string name="example_email">Email id</string>
+	<string name="example_name">Name</string>
+	<string name="firstname">First Name</string>
+	<string name="lastname">Last Name</string>
+	<string name="noitemadded">No order found</string>
+	<string name="ordernow">Order Now</string>
+	<string name="emptycart">Your Cart is empty</string>
+	<string name="additemsnow">Add items to the cart</string>
+	<string name="successorder">Order Successfully Placed</string>
+	<string name="thankyou">THANK YOU</string>
+	<string name="emptyaddress">No Address Added</string>
+	<string name="size">Size</string>
+	<string name="quantity">Quantity</string>
+	<string name="litersofwater">Liters of water</string>
+	<string name="kgofgrain">Kg of grain</string>
+	<string name="sqmofforest">Sq.m of Forest</string>
+	<string name="kgofco2">Kg oc Co2</string>
+	<string name="animallives">Animal Lives</string>
+	<string name="deliveryadatetime">Delivery Date and Time</string>
+	<string name="myinformation">My Information</string>
+	<string name="pickdateandtime">Pick Date and Time</string>
+	<string name="contactucdesc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+
+</resources>

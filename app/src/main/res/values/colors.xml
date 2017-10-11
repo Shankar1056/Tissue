@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="colorPrimary">#183482</color>
+	<color name="colorPrimaryDark">#122C69</color>
+	<color name="colorAccent">#008E0C</color>
+	<color name="white">#ffffff</color>
+	<color name="text_black">#282828</color>
+	<color name="text_black_light">#545454</color>
+	<color name="light_white">#ffab91</color>
+	<color name="app_back">#EBEBEB</color>
+	<color name="black">#000000</color>
+	<color name="closeopenbackground">#fff5f5f5</color>
+	<color name="otp_button_color">#00870D</color>
+
+	<color name="text_dark_green">#38725E</color>
+	<color name="backgroung_color">#D6D6D6</color>
+	<color name="view_line_color">#B2B1B2</color>
+	<color name="text_light_black_color">#5F5F5F</color>
+	<color name="prod_name_text_color">#3F3F3F</color>
+	<color name="cb_grey">#e9e7e7</color>
+	<color name="gray">#FFE6E6E6</color>
+	<color name="apetizer_color">#FF0071</color>
+	<color name="starters_color">#A20072</color>
+	<color name="maincourse_color">#FF8600</color>
+	<color name="desserts_color">#ECDC00</color>
+	<color name="beverage_color">#86E200</color>
+	<color name="salad_color">#00C260</color>
+	<color name="nofound">#9EADA6</color>
+
+	bg_child.xml  <color name="md_grey_800">#ff424242</color>
+	<color name="md_blue_grey_800">#ff37474f</color>
+	<color name="md_deep_teal_300">#ff4db6ac</color>
+	<color name="md_deep_teal_500">#ff009688</color>
+
+	<color name="white_full">#ffffffff</color>
+	<color name="white_dark">#ffdcdcdc</color>
+	<color name="colorControlHighlight">#4dFF4081</color>
+	<color name="translucent">#66ffffff</color>
+	<color name="transparent">#00000000</color>
+	<color name="colorAccent_translucent">#66FF4081</color>
+	<color name="md_deep_teal_300_translucent">#664db6ac</color>
+	<color name="successpagetextcolor">#414141</color>
+	bg_parent.xml
+	<color name="myorder_red">#FC8D00</color>
+	<color name="background">#EBEBEC</color>
+</resources>

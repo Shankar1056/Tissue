@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/white"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+	<android.support.v7.widget.Toolbar
+		android:id="@+id/toolbar"
+		android:layout_width="match_parent"
+		android:layout_height="?attr/actionBarSize"
+		app:popupTheme="@style/AppTheme.PopupOverlay">
+
+
+			<TextView
+				android:id="@+id/toolbartext"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:gravity="center"
+				android:textAllCaps="true"
+				android:maxLines="1"
+				android:ellipsize="end"
+				android:layout_marginRight="@dimen/margin_40"
+				android:textColor="@color/text_black"
+				android:textSize="@dimen/text_14"
+				android:textStyle="normal"/>
+
+	</android.support.v7.widget.Toolbar>
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+		</LinearLayout>
+	</ScrollView>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="@dimen/margin_20"
+		android:orientation="vertical">
+<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="@dimen/margin_150"
+	android:gravity="center">
+	<ImageView
+		android:layout_width="@dimen/margin_150"
+		android:layout_height="match_parent"
+		android:background="@mipmap/conatc_icon"/>
+</LinearLayout>
+	<TextView
+		android:id="@+id/contacttext"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:textSize="@dimen/text_14"
+		android:visibility="visible"
+		android:text="@string/contactucdesc"
+		android:textColor="@color/text_black_light"
+		android:layout_marginTop="@dimen/text_10"/>
+	<TextView
+		android:id="@+id/callus"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textColor="@color/text_black"
+		android:drawableLeft="@mipmap/call_icon"
+		android:text="Call Us"
+		android:gravity="center_vertical|bottom"
+		android:drawablePadding="@dimen/text_10"
+		android:layout_marginTop="@dimen/margin_30"/>
+		<TextView
+			android:id="@+id/emailus"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textColor="@color/text_black"
+		android:drawableLeft="@mipmap/mail_icon"
+		android:text="Email Us"
+		android:gravity="center_vertical|bottom"
+		android:drawablePadding="@dimen/text_10"
+		android:layout_marginTop="@dimen/margin_30"/>
+	</LinearLayout>
+	</LinearLayout>

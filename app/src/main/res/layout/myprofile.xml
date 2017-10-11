@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="@drawable/navigation_gradient"
+		android:orientation="vertical">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="@dimen/margin_15"
+			android:gravity="center_vertical"
+			android:orientation="horizontal">
+
+			<ImageView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="@mipmap/back"/>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center|right"
+				android:text="Edit"
+				android:textColor="@color/white"
+				android:textSize="@dimen/text_15"
+				android:textStyle="normal"/>
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="@dimen/margin_20"
+			android:layout_marginRight="@dimen/margin_20"
+			android:gravity="center"
+			android:orientation="vertical">
+
+			<de.hdodenhof.circleimageview.CircleImageView
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:id="@+id/profile_image"
+				android:layout_width="96dp"
+				android:layout_height="96dp"
+				android:src="@drawable/rounded_back_"
+				app:civ_border_color="#6B8C51"
+				app:civ_border_width="5dp"/>
+
+			<EditText
+				android:id="@+id/firstname"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/margin_20"
+				android:background="@android:color/transparent"
+				android:textStyle="normal"
+				android:hint="@string/firstname"
+				android:textColorHint="@color/white"
+				android:textSize="@dimen/text_15"
+				android:textColor="@color/white"
+				android:gravity="center"/>
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="0.5dp"
+				android:background="@color/white"
+				android:layout_marginTop="@dimen/margin_5"/>
+
+			<EditText
+				android:id="@+id/lastname"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/margin_15"
+				android:background="@android:color/transparent"
+				android:textStyle="normal"
+				android:hint="@string/lastname"
+				android:textColorHint="@color/white"
+				android:textSize="@dimen/text_15"
+				android:textColor="@color/white"
+				android:gravity="center"/>
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="0.5dp"
+				android:background="@color/white"
+				android:layout_marginTop="@dimen/margin_5"/>
+			<EditText
+				android:id="@+id/email"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/margin_15"
+				android:background="@android:color/transparent"
+				android:textStyle="normal"
+				android:hint="@string/hint_email"
+				android:textColorHint="@color/white"
+				android:textSize="@dimen/text_15"
+				android:textColor="@color/white"
+				android:gravity="center"/>
+			<EditText
+				android:id="@+id/phone"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/margin_15"
+				android:background="@android:color/transparent"
+				android:textStyle="normal"
+				android:hint="@string/example_phone"
+				android:textColorHint="@color/white"
+				android:textSize="@dimen/text_15"
+				android:textColor="@color/white"
+				android:gravity="center"/>
+
+		</LinearLayout>
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_margin="@dimen/margin_15"
+		android:orientation="horizontal">
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight=".5"
+			android:gravity="center_vertical"
+			android:text="@string/rateus"
+			android:textColor="@color/white"
+			android:textSize="@dimen/text_17"
+			android:textStyle="normal"/>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight=".5"
+			android:gravity="right|center"
+			android:text="@string/logout"
+			android:textColor="@color/white"
+			android:textSize="@dimen/text_17"
+			android:textStyle="normal"/>
+	</LinearLayout>
+</RelativeLayout>
